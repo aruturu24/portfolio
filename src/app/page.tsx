@@ -1,14 +1,12 @@
 import Header from './components/header';
+import Technologies from './components/technologies';
 import './page.scss';
 
 export default function Home() {
   return (
     <main>
       <Header/>
-      <div id='technologies'>
-        <h3>Technologies</h3>
-        <div className='technology-info'></div>
-      </div>
+      <Technologies/>
       <div id='informations'>
         <div id='languages'>
           <h3>Languages</h3>
