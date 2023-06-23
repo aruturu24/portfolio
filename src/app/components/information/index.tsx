@@ -10,7 +10,10 @@ export default function information() {
       </div>
       <div id='educations'>
         <h3 className='section-title'>Education</h3>
-        <div className='education-info'></div>
+        <div className='education-info'>
+          <span>🎓</span>
+          <p>System Analysis and Development – FAM Centro Universitário – 2023/01 - 2025/06</p>
+        </div>
       </div>
     </div>
   )

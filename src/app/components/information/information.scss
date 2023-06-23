@@ -3,12 +3,24 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
+  
   #languages {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 24px;
+  } 
+}
+
+#educations {
+  .education-info {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+    span {
+      margin: auto 0;
+    }
   }
 }
 
