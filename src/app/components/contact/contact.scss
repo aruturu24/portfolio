@@ -1,5 +1,9 @@
 #contact {
   grid-area: contact;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 
   button {
     outline: none;
@@ -7,8 +11,24 @@
     width: 100%;
     padding: 12px;
     border-radius: 24px;
-    font-size: 16px;
+    font-size: 1em;
     color: var(--text-primary);
     background-color: var(--bg-button);
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+  } 
+}
+
+#social-medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  svg {
+    width: 2.5em;
+    height: 2.5em;
   }
 }

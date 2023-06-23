@@ -19,11 +19,16 @@ body {
 
 body {
   background-color: var(--bg-primary);
+  font-size: 16px;
+
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
 }
 
 .section-title {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.1em;
   line-height: 28px;
   margin: 24px 0;
   color: var(--text-primary);
