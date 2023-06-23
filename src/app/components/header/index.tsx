@@ -9,8 +9,8 @@ export default function Header() {
         <h2>Fullstack Developer</h2>
       </div>
       <Image
-        src="/vercel.svg"
-        alt="Vercel Logo" 
+        src="/aruturu24.jpg"
+        alt="Arthur Gabryel photo" 
         width={325}
         height={325}
         priority
