@@ -1,0 +1,17 @@
+#information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  #languages {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+  }
+}
+
+p {
+  color: var(--text-secondary);
+}

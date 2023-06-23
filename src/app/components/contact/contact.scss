@@ -1,0 +1,14 @@
+#contact {
+  grid-area: contact;
+
+  button {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: var(--text-primary);
+    background-color: var(--bg-button);
+  }
+}
