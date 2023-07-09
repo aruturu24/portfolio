@@ -3,4 +3,21 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+
+  #technologies-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+
+    .technology-info {
+      color: var(--text-secondary);
+
+      svg {
+        width: 3em;
+        height: 3em;
+        margin: 0 auto;
+      }
+    }
+  }
 }
